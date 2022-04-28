@@ -1514,7 +1514,7 @@
     webpack-chain "4.9.0"
     webpack-format-messages "^2.0.5"
 
-"@tarojs/plugin-framework-react@3.4.8":
+"@tarojs/plugin-framework-react@^3.4.8":
   version "3.4.8"
   resolved "https://registry.yarnpkg.com/@tarojs/plugin-framework-react/-/plugin-framework-react-3.4.8.tgz#eec5b17fbf627ea4786018b301b641a133902f5c"
   integrity sha512-mtFUoNHn/63dEUIdpeeB3pFUBDj+pOOBwnZDE05gZPFsPUm1HOr3gz/ni0CpyhaqLldJQEhZ0UCgRrFGOJg08g==
