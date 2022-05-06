@@ -1,4 +1,6 @@
-export default defineAppConfig({
+import type { AppConfig } from '@tarojs/taro'
+
+const appConfig: AppConfig = {
   pages: [
     'pages/index/index'
   ],
@@ -7,5 +9,8 @@ export default defineAppConfig({
     navigationBarBackgroundColor: '#fff',
     navigationBarTitleText: 'WeChat',
     navigationBarTextStyle: 'black'
-  }
-})
+  },
+  style: 'v2'
+}
+
+export default appConfig

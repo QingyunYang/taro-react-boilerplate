@@ -1,24 +1,11 @@
-import { Component } from 'react'
+import type { FC } from 'react'
 import { View, Text } from '@tarojs/components'
 import './index.css'
 
-export default class Index extends Component {
+const Page: FC = () => (
+  <View className='index'>
+    <Text>Hello world!</Text>
+  </View>
+)
 
-  componentWillMount () { }
-
-  componentDidMount () { }
-
-  componentWillUnmount () { }
-
-  componentDidShow () { }
-
-  componentDidHide () { }
-
-  render () {
-    return (
-      <View className='index'>
-        <Text>Hello world!</Text>
-      </View>
-    )
-  }
-}
+export default Page
