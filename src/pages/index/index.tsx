@@ -1,6 +1,6 @@
-import type {FC} from "react"
-import {View, Text, Navigator} from "@tarojs/components"
-import "./index.css"
+import type { FC } from 'react'
+import { View, Text, Navigator } from '@tarojs/components'
+import './index.css'
 
 const Page: FC = () => (
   <View className="flex flex-col items-center justify-center h-screen">

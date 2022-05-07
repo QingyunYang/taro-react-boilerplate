@@ -1,8 +1,8 @@
 /**
  * @type {import('@types/tailwindcss/tailwind-config').TailwindConfig}
  */
-module.exports = {
-  content: ["./src/**/*.tsx"],
+const config = {
+  content: ['./src/**/*.tsx'],
   corePlugins: {
     preflight: false,
   },
@@ -11,3 +11,5 @@ module.exports = {
   },
   plugins: [],
 }
+
+module.exports = config

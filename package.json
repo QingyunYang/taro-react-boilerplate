@@ -36,7 +36,7 @@
   ],
   "author": "",
   "lint-staged": {
-    "*.{ts,tsx}": [
+    "*.{js,ts,tsx}": [
       "eslint --fix"
     ]
   },
@@ -62,8 +62,10 @@
     "autoprefixer": "^10.4.7",
     "babel-preset-taro": "3.4.8",
     "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-config-taro": "3.4.8",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.5.0",
     "husky": "^7.0.4",
