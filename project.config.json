@@ -2,7 +2,7 @@
   "miniprogramRoot": "./dist",
   "projectname": "taro-react-boilerplate",
   "description": "Taro React Boilerplate",
-  "appid": "touristappid",
+  "appid": "wxdcd3348597582def",
   "setting": {
     "urlCheck": true,
     "es6": false,
