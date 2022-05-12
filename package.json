@@ -42,10 +42,12 @@
     ]
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.1",
     "@tarojs/components": "3.4.9",
     "@tarojs/taro": "3.4.9",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "react-query": "^3.39.0"
   },
   "devDependencies": {
     "@babel/core": "^7.17.10",
