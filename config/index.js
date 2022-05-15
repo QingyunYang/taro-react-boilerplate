@@ -1,4 +1,5 @@
-// eslint-disable-next-line import/no-commonjs
+/* eslint-disable import/no-commonjs */
+const path = require('path')
 const { TaroWeappTailwindcssWebpackPluginV4 } = require('weapp-tailwindcss-webpack-plugin')
 
 const config = {
@@ -14,6 +15,9 @@ const config = {
   outputRoot: `dist/${process.env.TARO_ENV}`,
   plugins: [],
   defineConstants: {},
+  alias: {
+    '@/providers': path.resolve(__dirname, '..', 'src/providers'),
+  },
   copy: {
     patterns: [],
     options: {},
