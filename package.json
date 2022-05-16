@@ -2,6 +2,12 @@
   "name": "taro-react-boilerplate",
   "version": "1.0.0",
   "private": true,
+  "keywords": [
+    "taro",
+    "react",
+    "typescript",
+    "boilerplate"
+  ],
   "description": "Taro React Boilerplate",
   "templateInfo": {
     "name": "default",
