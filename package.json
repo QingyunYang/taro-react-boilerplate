@@ -1,7 +1,6 @@
 {
   "name": "taro-react-boilerplate",
   "version": "1.0.0",
-  "private": true,
   "keywords": [
     "taro",
     "react",
@@ -51,6 +50,8 @@
     "@reduxjs/toolkit": "^1.8.1",
     "@tarojs/components": "3.4.9",
     "@tarojs/taro": "3.4.9",
+    "dayjs": "^1.11.2",
+    "lodash-es": "^4.17.21",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-query": "^3.39.0",
