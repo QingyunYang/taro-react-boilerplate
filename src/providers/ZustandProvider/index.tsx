@@ -1,5 +1,5 @@
 import createContext from 'zustand/context'
-import { FC, PropsWithChildren } from 'react'
+import type { FC, PropsWithChildren } from 'react'
 
 import { createStore } from './createStore'
 

@@ -16,6 +16,7 @@ const config = {
   plugins: [],
   defineConstants: {},
   alias: {
+    '@/layouts': path.resolve(__dirname, '..', 'src/layouts'),
     '@/providers': path.resolve(__dirname, '..', 'src/providers'),
   },
   copy: {
