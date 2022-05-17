@@ -86,6 +86,7 @@
     "husky": "^8.0.1",
     "lint-staged": "^12.4.1",
     "npm-check-updates": "^13.0.0",
+    "plop": "^3.1.0",
     "postcss": "^8.4.13",
     "postcss-rem-to-responsive-pixel": "^5.1.1",
     "prettier": "^2.6.2",
