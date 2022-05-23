@@ -2,7 +2,12 @@ import type { AppConfig } from '@tarojs/taro'
 
 const appConfig: AppConfig = {
   pages: ['pages/index/index'],
-  subPackages: [],
+  subPackages: [
+    {
+      root: 'pages/404',
+      pages: ['index'],
+    },
+  ],
   window: {
     backgroundTextStyle: 'light',
     navigationBarBackgroundColor: '#fff',
