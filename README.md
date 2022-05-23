@@ -1,9 +1,13 @@
 <h1 align="center">Taro React Boilerplate</h1>
 
-## 特性
+## Technology
 
-- Taro3
-- React
-- Zustand
-- Tailwindcss
-- TypeScript
+- [Taro3](https://taro.zone/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Zustand](https://zustand-demo.pmnd.rs/)
+- [Tailwindcss](https://tailwindcss.com/)
+- [React Query](https://react-query.tanstack.com/)
+- [Day.js](https://day.js.org/)
+
+## Features
