@@ -40,7 +40,6 @@
     "Android >= 4.1",
     "ios >= 8"
   ],
-  "author": "",
   "lint-staged": {
     "*.{js,ts,tsx}": [
       "eslint --fix"
@@ -101,5 +100,11 @@
     "commitizen": {
       "path": "./node_modules/cz-customizable"
     }
-  }
+  },
+  "author": {
+    "name": "yangqingyun",
+    "email": "yangqingyun@hotmai.com",
+    "url": "https://github.com/QingyunYang"
+  },
+  "contributors": []
 }
