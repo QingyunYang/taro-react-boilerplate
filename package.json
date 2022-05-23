@@ -42,7 +42,6 @@
     "Android >= 4.1",
     "ios >= 8"
   ],
-  "author": "",
   "lint-staged": {
     "*.{js,ts,tsx}": [
       "eslint --fix"
@@ -52,7 +51,6 @@
     "@reduxjs/toolkit": "^1.8.1",
     "@tarojs/components": "3.4.9",
     "@tarojs/taro": "3.4.9",
-    "antd-mobile": "^5.12.4",
     "dayjs": "^1.11.2",
     "lodash-es": "^4.17.21",
     "react": "^17.0.0",
@@ -74,7 +72,6 @@
     "@tarojs/cli": "^3.4.9",
     "@tarojs/mini-runner": "3.4.9",
     "@tarojs/plugin-framework-react": "^3.4.9",
-    "@tarojs/plugin-html": "^3.4.9",
     "@tarojs/react": "^3.4.9",
     "@tarojs/runtime": "^3.4.9",
     "@tarojs/webpack-runner": "3.4.9",
@@ -113,5 +110,11 @@
     "commitizen": {
       "path": "./node_modules/cz-customizable"
     }
-  }
+  },
+  "author": {
+    "name": "yangqingyun",
+    "email": "yangqingyun@hotmai.com",
+    "url": "https://github.com/QingyunYang"
+  },
+  "contributors": []
 }
