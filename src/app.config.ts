@@ -2,7 +2,7 @@ import type { AppConfig } from '@tarojs/taro'
 
 const appConfig: AppConfig = {
   pages: ['pages/index/index'],
-  subPackages: [{ pages: ['index'], root: 'pages/antd-mobile' }],
+  subPackages: [],
   window: {
     backgroundTextStyle: 'light',
     navigationBarBackgroundColor: '#fff',
