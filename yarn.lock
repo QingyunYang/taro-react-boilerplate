@@ -1303,16 +1303,17 @@
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
-"@commitlint/cli@^17.0.0":
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-17.0.0.tgz#6c86c6b0eba4ba1204a19833c3c962b623f35518"
-  integrity sha512-Np6slCdVVG1XwMvwbZrXIzS1INPAD5QmN4L6al04AmCd4nAPU63gxgxC5Mz0Fmx7va23Uvb0S7yEFV1JPhvPUQ==
+"@commitlint/cli@^17.0.1":
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-17.0.1.tgz#88c5ad3f297760ded589c3a33ed49321242e7ab0"
+  integrity sha512-5xT1G5pnynR0tk/ms8Ji7yr9lZCeQs4GLVVtyK/gw20w+enoLTVuRKKY9zg88hy9FoCycc/W8iip2xv3c8payg==
   dependencies:
     "@commitlint/format" "^17.0.0"
     "@commitlint/lint" "^17.0.0"
     "@commitlint/load" "^17.0.0"
     "@commitlint/read" "^17.0.0"
     "@commitlint/types" "^17.0.0"
+    execa "^5.0.0"
     lodash "^4.17.19"
     resolve-from "5.0.0"
     resolve-global "1.0.0"
@@ -11740,10 +11741,10 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
-lint-staged@^12.4.1:
-  version "12.4.1"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-12.4.1.tgz#63fa27bfc8a33515f6902f63f6670864f1fb233c"
-  integrity sha512-PTXgzpflrQ+pODQTG116QNB+Q6uUTDg5B5HqGvNhoQSGt8Qy+MA/6zSnR8n38+sxP5TapzeQGTvoKni0KRS8Vg==
+lint-staged@^12.4.2:
+  version "12.4.2"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-12.4.2.tgz#380a5ec5a7a23caa9420972b0f98c8192afddecd"
+  integrity sha512-JAJGIzY/OioIUtrRePr8go6qUxij//mL+RGGoFKU3VWQRtIHgWoHizSqH0QVn2OwrbXS9Q6CICQjfj+E5qvrXg==
   dependencies:
     cli-truncate "^3.1.0"
     colorette "^2.0.16"
@@ -13083,7 +13084,7 @@ npm-bundled@^1.1.1, npm-bundled@^1.1.2:
   dependencies:
     npm-normalize-package-bin "^1.0.1"
 
-npm-check-updates@^13.0.1:
+npm-check-updates@^13.0.3:
   version "13.0.3"
   resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-13.0.3.tgz#b49559afdcf0af31f126a0b9a6ef4a3bc638e72c"
   integrity sha512-a8CVklJjXZhmN5Kup8rKiejArobCbOaMnubhvM/LkYVumO17dBuWuaHUuiSrYglQUb88lGSdbNNfHDNN7b+3pQ==
@@ -14401,7 +14402,7 @@ postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.2, postcss@^7.0.23, postcss@^7.0.2
     picocolors "^0.2.1"
     source-map "^0.6.1"
 
-postcss@^8.4.12, postcss@^8.4.13:
+postcss@^8.4.12, postcss@^8.4.13, postcss@^8.4.14:
   version "8.4.14"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.14.tgz#ee9274d5622b4858c1007a74d76e42e56fd21caf"
   integrity sha512-E398TUmfAYFPBSdzgeieK2Y1+1cpdxJx8yXbK/m57nRhKSmk1GB2tO4lbLBtlkfPQTDKfe4Xqv1ASWPpayPEig==
@@ -16738,10 +16739,10 @@ style-to-object@0.3.0, style-to-object@^0.3.0:
   dependencies:
     inline-style-parser "0.1.1"
 
-stylelint@^14.8.2:
-  version "14.8.3"
-  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-14.8.3.tgz#25d2df1e010cda52ff56327059d1ce25319109be"
-  integrity sha512-aLpskXwSgFEBYbFRKA/BfuyYMGuXNtn2t5GqoffNPSezvw97x/vVNWcZNF0+cwt+LBjfvyq9/MRE3OjInGRgNA==
+stylelint@^14.8.5:
+  version "14.8.5"
+  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-14.8.5.tgz#0fcbf5b6821283b5a249dde36d70f1158da0a2a3"
+  integrity sha512-e3t4H/hlWlspkcNUrkhf44RU3OpPTA7uBOoREGBzSwdEF+2g/+gbZq7WEpMP7BpopcSe/uLaTvDuL+URL7cdnQ==
   dependencies:
     balanced-match "^2.0.0"
     colord "^2.9.2"
@@ -16767,7 +16768,7 @@ stylelint@^14.8.2:
     micromatch "^4.0.5"
     normalize-path "^3.0.0"
     picocolors "^1.0.0"
-    postcss "^8.4.13"
+    postcss "^8.4.14"
     postcss-media-query-parser "^0.2.3"
     postcss-resolve-nested-selector "^0.1.1"
     postcss-safe-parser "^6.0.0"
@@ -18096,7 +18097,7 @@ wcwidth@^1.0.1:
   dependencies:
     defaults "^1.0.3"
 
-weapp-tailwindcss-webpack-plugin@^1.4.2:
+weapp-tailwindcss-webpack-plugin@^1.4.4:
   version "1.4.4"
   resolved "https://registry.yarnpkg.com/weapp-tailwindcss-webpack-plugin/-/weapp-tailwindcss-webpack-plugin-1.4.4.tgz#a0ffc58c9e2332feb766f9e0f51e043886199471"
   integrity sha512-B5BA7lYTfs6AZzgd3AlM16bUxyTg40Vf9B+FJBGzdCxqGvNYBJzFOXbRhWbCjnrrGBB3GjIkz+frCxQ1TOKClw==
