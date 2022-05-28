@@ -47,6 +47,9 @@
       "eslint --fix"
     ]
   },
+  "resolutions": {
+    "postcss": "8.4.13"
+  },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.1",
     "@tarojs/components": "3.4.10",
