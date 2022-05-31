@@ -4,6 +4,10 @@ const appConfig: AppConfig = {
   pages: ['pages/index/index'],
   subPackages: [
     {
+      root: 'pages/antd-mobile',
+      pages: ['index'],
+    },
+    {
       root: 'pages/404',
       pages: ['index'],
     },

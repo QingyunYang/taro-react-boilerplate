@@ -13,9 +13,10 @@ const config = {
   },
   sourceRoot: 'src',
   outputRoot: `dist/${process.env.TARO_ENV}`,
-  plugins: [],
+  plugins: ['@tarojs/plugin-html'],
   defineConstants: {},
   alias: {
+    'antd-mobile': 'antd-mobile/2x',
     '@/layouts': path.resolve(__dirname, '..', 'src/layouts'),
     '@/providers': path.resolve(__dirname, '..', 'src/providers'),
   },
