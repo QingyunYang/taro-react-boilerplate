@@ -108,7 +108,7 @@
     "eslint-plugin-storybook": "^0.5.12",
     "husky": "^8.0.1",
     "lint-staged": "^12.4.2",
-    "npm-check-updates": "^15.3.3",
+    "npm-check-updates": "^16.0.5",
     "plop": "^3.1.1",
     "postcss": "^8.4.13",
     "postcss-rem-to-responsive-pixel": "^5.1.3",
