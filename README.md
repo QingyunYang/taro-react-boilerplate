@@ -8,6 +8,6 @@
 - [Zustand](https://zustand-demo.pmnd.rs/)
 - [Tailwindcss](https://tailwindcss.com/)
 - [React Query](https://react-query.tanstack.com/)
-- [Day.js](https://day.js.org/)
+- [Date-fns](https://date-fns.org/)
 
 ## Features

@@ -43,7 +43,7 @@ specifiers:
   commitizen: ^4.2.4
   cz-conventional-changelog: 3.3.0
   cz-customizable: 6.3.0
-  dayjs: ^1.11.3
+  date-fns: ^2.29.1
   eslint: ^8.17.0
   eslint-config-prettier: ^8.5.0
   eslint-config-taro: 3.5.1
@@ -88,7 +88,7 @@ dependencies:
   '@tarojs/taro': 3.5.1_@types+react@18.0.15
   '@tarojs/taro-h5': 3.5.1_@types+react@18.0.15
   antd-mobile: 5.19.0_biqbaboplfbrettd7655fr4n2y
-  dayjs: 1.11.4
+  date-fns: 2.29.1
   lodash-es: 4.17.21
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -11226,6 +11226,14 @@ packages:
       whatwg-mimetype: 2.3.0
       whatwg-url: 7.1.0
     dev: true
+
+  /date-fns/2.29.1:
+    resolution:
+      {
+        integrity: sha512-dlLD5rKaKxpFdnjrs+5azHDFOPEu4ANy/LTh04A1DTzMM7qoajmKCBc8pkKRFT41CNzw+4gQh79X5C+Jq27HAw==,
+      }
+    engines: { node: '>=0.11' }
+    dev: false
 
   /dayjs/1.11.4:
     resolution:
