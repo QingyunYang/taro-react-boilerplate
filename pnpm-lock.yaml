@@ -3,8 +3,8 @@ lockfileVersion: 5.4
 specifiers:
   '@babel/core': ^7.17.12
   '@babel/runtime': ^7.17.9
-  '@commitlint/cli': ^17.0.1
-  '@commitlint/config-conventional': ^17.0.0
+  '@commitlint/cli': ^17.0.3
+  '@commitlint/config-conventional': ^17.0.3
   '@pmmmwh/react-refresh-webpack-plugin': ^0.5.7
   '@reduxjs/toolkit': ^1.8.3
   '@storybook/addon-actions': ^6.4.22
@@ -37,12 +37,12 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^5.25.0
   '@typescript-eslint/parser': ^5.25.0
   antd-mobile: ^5.13.1
-  autoprefixer: ^10.4.7
+  autoprefixer: ^10.4.8
   babel-loader: ^8.2.5
   babel-preset-taro: 3.5.1
-  commitizen: ^4.2.4
+  commitizen: ^4.2.5
   cz-conventional-changelog: 3.3.0
-  cz-customizable: 6.3.0
+  cz-customizable: 6.9.1
   date-fns: ^2.29.1
   eslint: ^8.17.0
   eslint-config-prettier: ^8.5.0
@@ -57,21 +57,21 @@ specifiers:
   lodash-es: ^4.17.21
   npm-check-updates: ^16.0.5
   plop: ^3.1.1
-  postcss: ^8.4.13
+  postcss: ^8.4.14
   postcss-rem-to-responsive-pixel: ^5.1.3
   prettier: ^2.7.1
-  prettier-plugin-tailwindcss: ^0.1.12
+  prettier-plugin-tailwindcss: ^0.1.13
   pretty-quick: ^3.1.3
   react: ^18.2.0
   react-dom: ^18.2.0
-  react-query: ^3.39.0
+  react-query: ^3.39.2
   react-refresh: ^0.14.0
   stylelint: ^14.9.1
-  tailwindcss: ^3.1.6
+  tailwindcss: ^3.1.7
   typescript: ^4.6.4
-  weapp-tailwindcss-webpack-plugin: ^1.6.8
+  weapp-tailwindcss-webpack-plugin: ^1.6.10
   webpack: ^5.73.0
-  zustand: ^4.0.0-rc.1
+  zustand: ^4.0.0
 
 dependencies:
   '@reduxjs/toolkit': 1.8.3_react@18.2.0
@@ -118,12 +118,12 @@ devDependencies:
   '@types/webpack-env': 1.17.0
   '@typescript-eslint/eslint-plugin': 5.31.0_d5zwcxr4bwkhmuo464cb3a2puu
   '@typescript-eslint/parser': 5.31.0_he2ccbldppg44uulnyq4rwocfa
-  autoprefixer: 10.4.7_postcss@8.4.13
+  autoprefixer: 10.4.8_postcss@8.4.14
   babel-loader: 8.2.5_y3lv6tn6yokher4u7xj4j22px4
   babel-preset-taro: 3.5.1_fepuvzkge3onlaeoopltuoopsa
   commitizen: 4.2.5
   cz-conventional-changelog: 3.3.0
-  cz-customizable: 6.3.0
+  cz-customizable: 6.9.1
   eslint: 8.20.0
   eslint-config-prettier: 8.5.0_eslint@8.20.0
   eslint-config-taro: 3.5.1_x45rze3t5r5rpj27b7qxdjmrpe
@@ -136,16 +136,16 @@ devDependencies:
   lint-staged: 12.5.0
   npm-check-updates: 16.0.5
   plop: 3.1.1
-  postcss: 8.4.13
+  postcss: 8.4.14
   postcss-rem-to-responsive-pixel: 5.1.3
   prettier: 2.7.1
   prettier-plugin-tailwindcss: 0.1.13_prettier@2.7.1
   pretty-quick: 3.1.3_prettier@2.7.1
   react-refresh: 0.14.0
   stylelint: 14.9.1
-  tailwindcss: 3.1.6
+  tailwindcss: 3.1.7
   typescript: 4.7.4
-  weapp-tailwindcss-webpack-plugin: 1.6.8
+  weapp-tailwindcss-webpack-plugin: 1.6.10
   webpack: 5.74.0
 
 packages:
@@ -264,18 +264,6 @@ packages:
       lodash: 4.17.21
       source-map: 0.5.7
       trim-right: 1.0.1
-    dev: true
-
-  /@babel/generator/7.18.2:
-    resolution:
-      {
-        integrity: sha512-W1lG5vUwFvfMd8HVXqdfbuG7RuaSrTCCD8cl8fP8wOivdbtbIg2Db3IWUcgvfxKbbn6ZBGYRW/Zk1MIwK49mgw==,
-      }
-    engines: { node: '>=6.9.0' }
-    dependencies:
-      '@babel/types': 7.18.9
-      '@jridgewell/gen-mapping': 0.3.2
-      jsesc: 2.5.2
     dev: true
 
   /@babel/generator/7.18.9:
@@ -639,17 +627,6 @@ packages:
       '@babel/helper-validator-identifier': 7.18.6
       chalk: 2.4.2
       js-tokens: 4.0.0
-
-  /@babel/parser/7.18.5:
-    resolution:
-      {
-        integrity: sha512-YZWVaglMiplo7v8f1oMQ5ZPQr0vn7HPeZXxXWsxXJRjGVrzUFn9OxFQl1sb5wzfootjA/yChhW84BV+383FSOw==,
-      }
-    engines: { node: '>=6.0.0' }
-    hasBin: true
-    dependencies:
-      '@babel/types': 7.18.9
-    dev: true
 
   /@babel/parser/7.18.9:
     resolution:
@@ -2032,27 +2009,6 @@ packages:
       globals: 11.12.0
       invariant: 2.2.4
       lodash: 4.17.21
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@babel/traverse/7.18.5:
-    resolution:
-      {
-        integrity: sha512-aKXj1KT66sBj0vVzk6rEeAO6Z9aiiQ68wfDgge3nHhA/my6xMM/7HGQUNumKZaoa2qUPQ5whJG9aAifsxUKfLA==,
-      }
-    engines: { node: '>=6.9.0' }
-    dependencies:
-      '@babel/code-frame': 7.18.6
-      '@babel/generator': 7.18.2
-      '@babel/helper-environment-visitor': 7.18.9
-      '@babel/helper-function-name': 7.18.9
-      '@babel/helper-hoist-variables': 7.18.6
-      '@babel/helper-split-export-declaration': 7.18.6
-      '@babel/parser': 7.18.5
-      '@babel/types': 7.18.9
-      debug: 4.3.4
-      globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -7757,22 +7713,22 @@ packages:
     hasBin: true
     dev: true
 
-  /autoprefixer/10.4.7_postcss@8.4.13:
+  /autoprefixer/10.4.8_postcss@8.4.14:
     resolution:
       {
-        integrity: sha512-ypHju4Y2Oav95SipEcCcI5J7CGPuvz8oat7sUtYj3ClK44bldfvtvcxK6IEK++7rqB7YchDGzweZIBG+SD0ZAA==,
+        integrity: sha512-75Jr6Q/XpTqEf6D2ltS5uMewJIx5irCU1oBYJrWjFenq/m12WRRrz6g15L1EIoYvPLXTbEry7rDOwrcYNj77xw==,
       }
     engines: { node: ^10 || ^12 || >=14 }
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      browserslist: 4.21.2
-      caniuse-lite: 1.0.30001370
+      browserslist: 4.21.3
+      caniuse-lite: 1.0.30001373
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
-      postcss: 8.4.13
+      postcss: 8.4.14
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -8948,6 +8904,19 @@ packages:
       node-releases: 2.0.6
       update-browserslist-db: 1.0.5_browserslist@4.21.2
 
+  /browserslist/4.21.3:
+    resolution:
+      {
+        integrity: sha512-898rgRXLAyRkM1GryrrBHGkqA5hlpkV5MhtZwg9QXeiyLUYs2k00Un05aX5l2/yJIOObYKOpS2JNo8nJDE7fWQ==,
+      }
+    engines: { node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7 }
+    hasBin: true
+    dependencies:
+      caniuse-lite: 1.0.30001373
+      electron-to-chromium: 1.4.202
+      node-releases: 2.0.6
+      update-browserslist-db: 1.0.5_browserslist@4.21.3
+
   /bser/2.1.1:
     resolution:
       {
@@ -9411,8 +9380,8 @@ packages:
         integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==,
       }
     dependencies:
-      browserslist: 4.21.2
-      caniuse-lite: 1.0.30001370
+      browserslist: 4.21.3
+      caniuse-lite: 1.0.30001373
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
     dev: true
@@ -9421,6 +9390,12 @@ packages:
     resolution:
       {
         integrity: sha512-3PDmaP56wz/qz7G508xzjx8C+MC2qEm4SYhSEzC9IBROo+dGXFWRuaXkWti0A9tuI00g+toiriVqxtWMgl350g==,
+      }
+
+  /caniuse-lite/1.0.30001373:
+    resolution:
+      {
+        integrity: sha512-pJYArGHrPp3TUqQzFYRmP/lwJlj8RCbVe3Gd3eJQkAV8SAC6b19XS9BjMvRdvaS8RMkaTN8ZhoHP6S1y8zzwEQ==,
       }
 
   /capital-case/1.0.4:
@@ -10519,7 +10494,7 @@ packages:
         integrity: sha512-F+2E63X3ff/nj8uIrf8Rf24UDGIz7p838+xjEp+Bx3y8OWXj+VTPPZNCtdqovPaS9o7Tka5mCH01Zn5vOd6UQg==,
       }
     dependencies:
-      browserslist: 4.21.2
+      browserslist: 4.21.3
       semver: 7.0.0
 
   /core-js-pure/3.24.0:
@@ -11183,16 +11158,16 @@ packages:
       - '@swc/wasm'
     dev: true
 
-  /cz-customizable/6.3.0:
+  /cz-customizable/6.9.1:
     resolution:
       {
-        integrity: sha512-MWGmWa45v4Ds3NJNNwQc3GCFdjtH3k4ypDWoWkwultMVLf7aOHR9VaXGYGZHLOQS4sMfbkBSjNUYoXCSmLuRSA==,
+        integrity: sha512-syPyuOyV/+cEXbky8x/MIyWvJmzwhucdI1CA3swydxrMz5ey02HQ1zVDkMmtWT/cpKfELCn7uw2w8WUvXkr56g==,
       }
     hasBin: true
     dependencies:
       editor: 1.0.0
       find-config: 1.0.0
-      inquirer: 6.5.2
+      inquirer: 8.2.4
       lodash: 4.17.21
       temp: 0.9.4
       word-wrap: 1.2.3
@@ -21300,7 +21275,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.2
+      browserslist: 4.21.3
       caniuse-api: 3.0.0
       colord: 2.9.2
       postcss: 8.4.14
@@ -21316,7 +21291,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.2
+      browserslist: 4.21.3
       postcss: 8.4.14
       postcss-value-parser: 4.2.0
     dev: true
@@ -21533,7 +21508,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.2
+      browserslist: 4.21.3
       caniuse-api: 3.0.0
       cssnano-utils: 3.1.0_postcss@8.4.14
       postcss: 8.4.14
@@ -21577,7 +21552,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.2
+      browserslist: 4.21.3
       cssnano-utils: 3.1.0_postcss@8.4.14
       postcss: 8.4.14
       postcss-value-parser: 4.2.0
@@ -21792,7 +21767,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.2
+      browserslist: 4.21.3
       postcss: 8.4.14
       postcss-value-parser: 4.2.0
     dev: true
@@ -21865,7 +21840,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.2
+      browserslist: 4.21.3
       caniuse-api: 3.0.0
       postcss: 8.4.14
     dev: true
@@ -22017,18 +21992,6 @@ packages:
       colorette: 1.4.0
       nanoid: 3.3.4
       source-map-js: 0.6.2
-    dev: true
-
-  /postcss/8.4.13:
-    resolution:
-      {
-        integrity: sha512-jtL6eTBrza5MPzy8oJLFuUscHDXTV5KcLlqAWHl5q5WYRfnNRGSmOZmOZ1T6Gy7A99mOZfqungmZMpMmCVJ8ZA==,
-      }
-    engines: { node: ^10 || ^12 || >=14 }
-    dependencies:
-      nanoid: 3.3.4
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
     dev: true
 
   /postcss/8.4.14:
@@ -22719,7 +22682,7 @@ packages:
     dependencies:
       deep-extend: 0.6.0
       ini: 1.3.8
-      minimist: 1.2.5
+      minimist: 1.2.6
       strip-json-comments: 2.0.1
     dev: true
 
@@ -25479,7 +25442,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.2
+      browserslist: 4.21.3
       postcss: 8.4.14
       postcss-selector-parser: 6.0.10
     dev: true
@@ -25730,10 +25693,10 @@ packages:
       strip-ansi: 6.0.1
     dev: true
 
-  /tailwindcss/3.1.6:
+  /tailwindcss/3.1.7:
     resolution:
       {
-        integrity: sha512-7skAOY56erZAFQssT1xkpk+kWt2NrO45kORlxFPXUt3CiGsVPhH1smuH5XoDH6sGPXLyBv+zgCKA2HWBsgCytg==,
+        integrity: sha512-r7mgumZ3k0InfVPpGWcX8X/Ut4xBfv+1O/+C73ar/m01LxGVzWvPxF/w6xIUPEztrCoz7axfx0SMdh8FH8ZvRQ==,
       }
     engines: { node: '>=12.13.0' }
     hasBin: true
@@ -26884,6 +26847,19 @@ packages:
       escalade: 3.1.1
       picocolors: 1.0.0
 
+  /update-browserslist-db/1.0.5_browserslist@4.21.3:
+    resolution:
+      {
+        integrity: sha512-dteFFpCyvuDdr9S/ff1ISkKt/9YZxKjI9WlRR99c180GaztJtRa/fn18FdxGVKVsnPY7/a/FDN68mcvUmP4U7Q==,
+      }
+    hasBin: true
+    peerDependencies:
+      browserslist: '>= 4.21.0'
+    dependencies:
+      browserslist: 4.21.3
+      escalade: 3.1.1
+      picocolors: 1.0.0
+
   /update-notifier/2.5.0:
     resolution:
       {
@@ -27404,15 +27380,15 @@ packages:
       defaults: 1.0.3
     dev: true
 
-  /weapp-tailwindcss-webpack-plugin/1.6.8:
+  /weapp-tailwindcss-webpack-plugin/1.6.10:
     resolution:
       {
-        integrity: sha512-4UFNpPNwRWOrKcrnFUyAqb278fP7iz3lKJgyNzTTYM/0D043h6JxM226WMp//j6UCKCQm+Qf2H6Yq+ZUc6p0Nw==,
+        integrity: sha512-k27uw0DwhwH2cmbEDeLtX6IIHiQxfVDA4QgwywCptbptRUbsaXnQ1i+hK6Cl3Yxq2hICe38SwmtavCv6aCZMEg==,
       }
     dependencies:
-      '@babel/generator': 7.18.2
-      '@babel/parser': 7.18.5
-      '@babel/traverse': 7.18.5
+      '@babel/generator': 7.18.9
+      '@babel/parser': 7.18.9
+      '@babel/traverse': 7.18.9
       loader-utils: 2.0.2
       webpack-sources: 3.2.3
     transitivePeerDependencies:
