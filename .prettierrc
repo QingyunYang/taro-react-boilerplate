@@ -6,5 +6,6 @@
   "printWidth": 100,
   "bracketSpacing": true,
   "trailingComma": "all",
+  "endOfLine": "auto",
   "plugins": ["./node_modules/prettier-plugin-tailwindcss"]
 }
