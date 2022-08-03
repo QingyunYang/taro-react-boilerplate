@@ -48,7 +48,7 @@
     ]
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^1.8.1",
+    "@reduxjs/toolkit": "^1.8.3",
     "@tarojs/components": "3.5.1",
     "@tarojs/helper": "3.5.1",
     "@tarojs/plugin-platform-alipay": "3.5.1",
