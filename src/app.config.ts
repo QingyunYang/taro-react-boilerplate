@@ -4,7 +4,7 @@ const pages = ['pages/index/index', 'pages/explorer/index']
 
 // 微信小程序最多支持100个子包
 const subPackages = [
-  { root: 'pages/antd-mobile', pages: ['index'] },
+  { root: 'sub-packages/web-components', pages: ['antd-mobile/index'] },
   { root: 'pages/404', pages: ['index'] },
 ]
 
