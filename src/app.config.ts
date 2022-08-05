@@ -4,7 +4,11 @@ const pages = ['pages/index/index', 'pages/explorer/index']
 
 // 微信小程序最多支持100个子包
 const subPackages = [
-  { root: 'sub-packages/web-components', pages: ['antd-mobile/index'] },
+  { root: 'sub-packages/h5-components', pages: ['antd-mobile/index'] },
+  {
+    root: 'sub-packages/state-management',
+    pages: ['reduxjs-toolkit/index', 'zustand/index', 'recoil/index', 'jotai/index'],
+  },
   { root: 'pages/404', pages: ['index'] },
 ]
 
@@ -12,7 +16,15 @@ const getPages = () => {
   if (process.env.NODE_ENV === 'production') {
     return pages
   }
-  return [...pages, ...subPackages.map((item) => `${item.root}/${item.pages[0]}`)]
+  return [
+    ...pages,
+    ...subPackages.reduce((previous: string[], subPackage) => {
+      subPackage.pages.forEach((page) => {
+        previous.push(`${subPackage.root}/${page}`)
+      })
+      return previous
+    }, []),
+  ]
 }
 
 const getSubPackages = () => {

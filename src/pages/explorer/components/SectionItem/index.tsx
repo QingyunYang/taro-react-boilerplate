@@ -18,17 +18,19 @@ export const SectionItem: FC<{
         </View>
       ) : null}
 
-      {links.map((item) => (
-        <Navigator
-          key={`${item.title}${item.url}`}
-          url={item.url}
-          className="mt-3 gap-2 text-sm font-medium text-blue-500"
-        >
-          <View className="p-1">
-            <Text>{item.title}</Text>
-          </View>
-        </Navigator>
-      ))}
+      <View className="mt-3">
+        {links.map((item) => (
+          <Navigator
+            key={`${item.title}${item.url}`}
+            url={item.url}
+            className="gap-2 text-sm font-medium text-blue-500"
+          >
+            <View className="p-1">
+              <Text>{item.title}</Text>
+            </View>
+          </Navigator>
+        ))}
+      </View>
     </View>
   </View>
 )
