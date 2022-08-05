@@ -9,7 +9,11 @@ export const App: FC = () => (
       title="H5 Components"
       description="在 @tarojs/plugin-html 插件的支持下，可以一定程度上复用 web 端的组件"
     />
-    <SectionItem links={[]} title="Taro Components" description="基于 Taro 的跨端组件库" />
+    <SectionItem
+      links={[{ url: '/sub-packages/taro-components/taroify/index', title: 'taroify' }]}
+      title="Taro Components"
+      description="基于 Taro 的跨端组件库"
+    />
     <SectionItem links={[]} title="Hooks" description="描述内容" />
     <SectionItem
       links={[

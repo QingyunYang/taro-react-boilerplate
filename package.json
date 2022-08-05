@@ -49,6 +49,8 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.3",
+    "@taroify/core": "0.1.0-alpha.1",
+    "@taroify/icons": "0.1.0-alpha.1",
     "@tarojs/components": "3.5.1",
     "@tarojs/taro": "3.5.1",
     "antd-mobile": "^5.13.1",
