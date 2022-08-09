@@ -1,3 +1,6 @@
+/**
+ * @type {import('cz-customizable').Options}
+ */
 module.exports = {
   types: [
     {
@@ -49,7 +52,7 @@ module.exports = {
       name: '⏱  revert: Revert to a commit',
     },
   ],
-  scopes: [],
-  allowCustomScopes: false,
+  scopes: [{ name: 'h5' }, { name: 'weapp' }],
+  allowCustomScopes: true,
   allowBreakingChanges: ['feat', 'fix'],
 }
