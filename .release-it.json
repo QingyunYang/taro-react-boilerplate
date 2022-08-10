@@ -4,7 +4,9 @@
     "requireCleanWorkingDir": false
   },
   "github": {
-    "release": true
+    "release": true,
+    "releaseName": "chore(release): v${version}",
+    "draft": false
   },
   "npm": {
     "publish": false

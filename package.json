@@ -35,6 +35,9 @@
     "commit": "git cz",
     "prepare": "husky install",
     "release": "release-it",
+    "release:patch": "release-it patch",
+    "release:minor": "release-it minor",
+    "release:major": "release-it major",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
