@@ -10,6 +10,17 @@ const config = {
       },
     ],
   ],
+  plugins: [
+    [
+      'import',
+      {
+        libraryName: '@antmjs/vantui',
+        libraryDirectory: 'es',
+        style: true,
+      },
+      '@antmjs/vantui',
+    ],
+  ],
 }
 
 module.exports = config

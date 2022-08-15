@@ -52,6 +52,7 @@
     ]
   },
   "dependencies": {
+    "@antmjs/vantui": "^1.9.21",
     "@reduxjs/toolkit": "^1.8.3",
     "@taroify/core": "0.1.0-alpha.1",
     "@taroify/icons": "0.1.0-alpha.1",
@@ -101,6 +102,7 @@
     "@typescript-eslint/parser": "^5.25.0",
     "autoprefixer": "^10.4.8",
     "babel-loader": "^8.2.5",
+    "babel-plugin-import": "^1.13.5",
     "babel-preset-taro": "3.5.2",
     "commitizen": "^4.2.5",
     "cz-conventional-changelog": "3.3.0",

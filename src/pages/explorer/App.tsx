@@ -10,7 +10,10 @@ export const App: FC = () => (
       description="在 @tarojs/plugin-html 插件的支持下，可以一定程度上复用 web 端的组件"
     />
     <SectionItem
-      links={[{ url: '/sub-packages/taro-components/taroify/index', title: 'taroify' }]}
+      links={[
+        { url: '/sub-packages/taro-components/taroify/index', title: 'taroify' },
+        { url: '/sub-packages/taro-components/antmjs-vantui/index', title: '@antmjs/vantui' },
+      ]}
       title="Taro Components"
       description="基于 Taro 的跨端组件库"
     />
