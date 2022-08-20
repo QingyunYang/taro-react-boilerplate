@@ -8,7 +8,7 @@ const subPackages = [
   { root: 'sub-packages/taro-components', pages: ['taroify/index', 'antmjs-vantui/index'] },
   {
     root: 'sub-packages/state-management',
-    pages: ['reduxjs-toolkit/index', 'zustand/index', 'recoil/index', 'jotai/index'],
+    pages: ['redux/index', 'zustand/index', 'recoil/index', 'jotai/index'],
   },
   { root: 'pages/404', pages: ['index'] },
 ]

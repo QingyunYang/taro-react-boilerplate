@@ -1,7 +1,7 @@
 import type { PageConfig } from '@tarojs/taro'
 
 const pageConfig: PageConfig = {
-  navigationBarTitleText: 'reduxjs/toolkit',
+  navigationBarTitleText: 'redux',
 }
 
 export default pageConfig

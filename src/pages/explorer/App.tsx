@@ -20,7 +20,7 @@ export const App: FC = () => (
     <SectionItem links={[]} title="Hooks" description="描述内容" />
     <SectionItem
       links={[
-        { url: '/sub-packages/state-management/reduxjs-toolkit/index', title: '@reduxjs/toolkit' },
+        { url: '/sub-packages/state-management/redux/index', title: 'redux' },
         { url: '/sub-packages/state-management/zustand/index', title: 'zustand' },
         { url: '/sub-packages/state-management/recoil/index', title: 'recoil' },
         { url: '/sub-packages/state-management/jotai/index', title: 'jotai' },
