@@ -12,7 +12,7 @@ export const App: FC = () => (
     <SectionItem
       links={[
         { url: '/sub-packages/taro-components/taroify/index', title: 'taroify' },
-        { url: '/sub-packages/taro-components/antmjs-vantui/index', title: '@antmjs/vantui' },
+        { url: '/sub-packages/taro-components/@antmjs+vantui/index', title: '@antmjs/vantui' },
       ]}
       title="Taro Components"
       description="基于 Taro 的跨端组件库"

@@ -1,7 +1,7 @@
 import type { PageConfig } from '@tarojs/taro'
 
 const pageConfig: PageConfig = {
-  navigationBarTitleText: 'antmjs-vantui',
+  navigationBarTitleText: '',
 }
 
 export default pageConfig
