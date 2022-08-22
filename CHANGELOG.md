@@ -1,3 +1,21 @@
+## [0.0.2](https://github.com/QingyunYang/taro-react-boilerplate/compare/0.0.1...0.0.2) (2022-08-22)
+
+### Bug Fixes
+
+- **h5:** 修复 html 根节点 font-size 异常 ([f9b7995](https://github.com/QingyunYang/taro-react-boilerplate/commit/f9b7995be6f087c261ef93dad0a874026624d03e))
+
+### Features
+
+- 集成 @reduxjs/toolkit, react-redux ([3a77f3e](https://github.com/QingyunYang/taro-react-boilerplate/commit/3a77f3e9f133ea1d943db3997956af2bea1de8c0))
+- 集成 zustand 状态管理 ([7140b1a](https://github.com/QingyunYang/taro-react-boilerplate/commit/7140b1a6877951f7e7f41ca3d0206aaf66e682ca))
+- 首页添加 taro logo ([ed3be89](https://github.com/QingyunYang/taro-react-boilerplate/commit/ed3be897484b5d62c43fadc17f00e7a407cc938a))
+- 修改 @antmjs/vantui 示例页面路径 ([fdcaede](https://github.com/QingyunYang/taro-react-boilerplate/commit/fdcaedeaabf4381277ac67c7800c4b2b4e9ca9d7))
+- 支持 @antmjs/vantui 组件库 ([fc28f02](https://github.com/QingyunYang/taro-react-boilerplate/commit/fc28f021786d936d90734107e4e463c08e6f5818))
+- **h5:** antd-moble 组件库适配浏览器 ([5b37a3e](https://github.com/QingyunYang/taro-react-boilerplate/commit/5b37a3ef6dc21748934a501d20ee72b98742891e))
+- **h5:** taroify 适配浏览器 ([76a8c03](https://github.com/QingyunYang/taro-react-boilerplate/commit/76a8c032b76fbe7a1e73024a16715aa073b94eac))
+- **storybook:** 更新 storybook 相关依赖版本至 6.5.10 ([f899b0c](https://github.com/QingyunYang/taro-react-boilerplate/commit/f899b0ce8d357d3471291a3c8addb6047727eae8))
+- taroify 组件库支持按需加载 ([bf2b143](https://github.com/QingyunYang/taro-react-boilerplate/commit/bf2b143ac66b96bee8aab77bf612a1e281e34a25))
+
 ## 0.0.1 (2022-08-09)
 
 ### Bug Fixes
