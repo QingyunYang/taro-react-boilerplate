@@ -79,7 +79,7 @@ specifiers:
   typescript: ^4.6.4
   weapp-tailwindcss-webpack-plugin: ^1.6.10
   webpack: ^5.73.0
-  zustand: ^4.0.0
+  zustand: ^4.1.1
 
 dependencies:
   '@antmjs/vantui': 1.9.21_biqbaboplfbrettd7655fr4n2y
@@ -95,7 +95,7 @@ dependencies:
   react-error-boundary: 3.1.4_react@18.2.0
   react-query: 3.39.2_biqbaboplfbrettd7655fr4n2y
   react-redux: 8.0.2_bb2bxwco6ptpubzwpazr52qf6i
-  zustand: 4.0.0_react@18.2.0
+  zustand: 4.1.1_react@18.2.0
 
 devDependencies:
   '@babel/core': 7.18.9
@@ -29880,10 +29880,10 @@ packages:
     engines: { node: '>=10' }
     dev: true
 
-  /zustand/4.0.0_react@18.2.0:
+  /zustand/4.1.1_react@18.2.0:
     resolution:
       {
-        integrity: sha512-OrsfQTnRXF1LZ9/vR/IqN9ws5EXUhb149xmPjErZnUrkgxS/gAHGy2dPNIVkVvoxrVe1sIydn4JjF0dYHmGeeQ==,
+        integrity: sha512-h4F3WMqsZgvvaE0n3lThx4MM81Ls9xebjvrABNzf5+jb3/03YjNTSgZXeyrvXDArMeV9untvWXRw1tY+ntPYbA==,
       }
     engines: { node: '>=12.7.0' }
     peerDependencies:
