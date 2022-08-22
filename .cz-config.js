@@ -52,7 +52,7 @@ module.exports = {
       name: '⏱  revert: Revert to a commit',
     },
   ],
-  scopes: [{ name: 'h5' }, { name: 'weapp' }],
+  scopes: [{ name: 'h5' }, { name: 'weapp' }, { name: 'storybook' }],
   allowCustomScopes: true,
   allowBreakingChanges: ['feat', 'fix'],
 }
