@@ -15,6 +15,10 @@ const stateManagement = [
   { url: '/sub-packages/state-management/jotai/index', title: 'jotai' },
 ]
 
+const dataFetching = [
+  { url: '/sub-packages/data-fetching/react-query/index', title: 'react-query' },
+]
+
 const h5Components = [
   { url: '/sub-packages/h5-components/antd-mobile/index', title: 'antd-mobile' },
 ]
@@ -29,6 +33,7 @@ export const App: FC = () => (
       description="基于 Taro 的跨端组件库"
     />
     <SectionItem links={stateManagement} title="State Management" description="流行的状态管理库" />
+    <SectionItem links={dataFetching} title="Data Fetching" description="数据请求库" />
     <SectionItem
       links={h5Components}
       title="H5 Components"

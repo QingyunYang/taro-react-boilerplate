@@ -16,6 +16,7 @@ specifiers:
   '@storybook/addon-postcss': ^2.0.0
   '@storybook/react': ^6.5.10
   '@storybook/testing-library': ^0.0.13
+  '@tanstack/react-query': ^4.2.3
   '@taroify/core': 0.1.0-alpha.1
   '@taroify/icons': 0.1.0-alpha.1
   '@tarojs/cli': ^3.5.2
@@ -84,6 +85,7 @@ specifiers:
 dependencies:
   '@antmjs/vantui': 1.9.21_biqbaboplfbrettd7655fr4n2y
   '@reduxjs/toolkit': 1.8.3_kkwg4cbsojnjnupd3btipussee
+  '@tanstack/react-query': 4.2.3_biqbaboplfbrettd7655fr4n2y
   '@taroify/core': 0.1.0-alpha.1_w3adxicffaylrpxiffwkbzwry4
   '@taroify/icons': 0.1.0-alpha.1_@tarojs+components@3.5.2
   '@tarojs/components': 3.5.2_@types+react@18.0.15
@@ -5374,6 +5376,35 @@ packages:
     dependencies:
       defer-to-connect: 2.0.1
     dev: true
+
+  /@tanstack/query-core/4.2.3:
+    resolution:
+      {
+        integrity: sha512-zdt5lYWs1dZaA3IxJbCgtAfHZJScRZONpiLL7YkeOkrme5MfjQqTpjq7LYbzpyuwPOh2Jx68le0PLl57JFv5hQ==,
+      }
+    dev: false
+
+  /@tanstack/react-query/4.2.3_biqbaboplfbrettd7655fr4n2y:
+    resolution:
+      {
+        integrity: sha512-JLaMOxoJTkiAu7QpevRCt2uI/0vd3E8K/rSlCuRgWlcW5DeJDFpDS5kfzmLO5MOcD97fgsJRrDbxDORxR1FdJA==,
+      }
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-native: '*'
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+      react-native:
+        optional: true
+    dependencies:
+      '@tanstack/query-core': 4.2.3
+      '@types/use-sync-external-store': 0.0.3
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      use-sync-external-store: 1.2.0_react@18.2.0
+    dev: false
 
   /@taroify/core/0.1.0-alpha.1_w3adxicffaylrpxiffwkbzwry4:
     resolution:
