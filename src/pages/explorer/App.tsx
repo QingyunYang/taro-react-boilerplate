@@ -19,10 +19,6 @@ const dataFetching = [
   { url: '/sub-packages/data-fetching/react-query/index', title: 'react-query' },
 ]
 
-const h5Components = [
-  { url: '/sub-packages/h5-components/antd-mobile/index', title: 'antd-mobile' },
-]
-
 const useHooks = [{ url: '/sub-packages/use-hooks/ahooks/index', title: 'ahooks' }]
 
 export const App: FC = () => (
@@ -34,11 +30,6 @@ export const App: FC = () => (
     />
     <SectionItem links={stateManagement} title="State Management" description="流行的状态管理库" />
     <SectionItem links={dataFetching} title="Data Fetching" description="数据请求库" />
-    <SectionItem
-      links={h5Components}
-      title="H5 Components"
-      description="在 @tarojs/plugin-html 插件的支持下，可以一定程度上复用 web 端的组件"
-    />
     <SectionItem links={useHooks} title="Use Hooks" description="可用的 react hook 库" />
     <SectionItem links={[]} title="Drag And Drop" description="拖拽能力" />
     <SectionItem links={[]} title="Animation" description="动画效果" />

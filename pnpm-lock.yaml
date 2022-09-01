@@ -23,7 +23,6 @@ specifiers:
   '@tarojs/components': 3.5.4
   '@tarojs/helper': ^3.5.4
   '@tarojs/plugin-framework-react': ^3.5.4
-  '@tarojs/plugin-html': ^3.5.4
   '@tarojs/plugin-platform-alipay': ^3.5.4
   '@tarojs/plugin-platform-jd': ^3.5.4
   '@tarojs/plugin-platform-qq': ^3.5.4
@@ -118,7 +117,6 @@ devDependencies:
   '@tarojs/cli': 3.5.4_@types+react@18.0.15
   '@tarojs/helper': 3.5.4
   '@tarojs/plugin-framework-react': 3.5.4_pgscarq22azhzjsqza46fvy6oq
-  '@tarojs/plugin-html': 3.5.4_@types+react@18.0.15
   '@tarojs/plugin-platform-alipay': 3.5.4_@types+react@18.0.15
   '@tarojs/plugin-platform-jd': 3.5.4_@types+react@18.0.15
   '@tarojs/plugin-platform-qq': 3.5.4_@types+react@18.0.15
@@ -5621,24 +5619,6 @@ packages:
       acorn-walk: 8.2.0
       react: 18.2.0
       react-refresh: 0.14.0
-    transitivePeerDependencies:
-      - '@types/react'
-      - '@types/webpack'
-      - '@types/webpack-dev-server'
-      - supports-color
-      - vue
-    dev: true
-
-  /@tarojs/plugin-html/3.5.4_@types+react@18.0.15:
-    resolution:
-      {
-        integrity: sha512-9zZ1GjxaVBfNgw62EQWGpLJi3WaWuyA6oXzaT9Iy1yExYgeCDx6iYKKQTV1oJgnxGsWudzbIlFuvMp9dM3o2eA==,
-      }
-    dependencies:
-      '@babel/parser': 7.18.9
-      '@tarojs/runtime': 3.5.4
-      '@tarojs/service': 3.5.4_@types+react@18.0.15
-      '@tarojs/shared': 3.5.4
     transitivePeerDependencies:
       - '@types/react'
       - '@types/webpack'

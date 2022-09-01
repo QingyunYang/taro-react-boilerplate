@@ -86,7 +86,6 @@
     "@tarojs/cli": "^3.5.4",
     "@tarojs/helper": "^3.5.4",
     "@tarojs/plugin-framework-react": "^3.5.4",
-    "@tarojs/plugin-html": "^3.5.4",
     "@tarojs/plugin-platform-alipay": "^3.5.4",
     "@tarojs/plugin-platform-jd": "^3.5.4",
     "@tarojs/plugin-platform-qq": "^3.5.4",
