@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@antmjs/vantui': ^1.9.21
+  '@antmjs/vantui': ^2.0.0
   '@babel/core': ^7.17.12
   '@babel/runtime': ^7.17.9
   '@commitlint/cli': ^17.0.3
@@ -83,7 +83,7 @@ specifiers:
   zustand: ^4.1.1
 
 dependencies:
-  '@antmjs/vantui': 1.9.21_biqbaboplfbrettd7655fr4n2y
+  '@antmjs/vantui': 2.0.0_biqbaboplfbrettd7655fr4n2y
   '@reduxjs/toolkit': 1.8.3_kkwg4cbsojnjnupd3btipussee
   '@tanstack/react-query': 4.2.3_biqbaboplfbrettd7655fr4n2y
   '@taroify/core': 0.1.0-alpha.1_w3adxicffaylrpxiffwkbzwry4
@@ -178,14 +178,13 @@ packages:
       '@jridgewell/trace-mapping': 0.3.14
     dev: true
 
-  /@antmjs/vantui/1.9.21_biqbaboplfbrettd7655fr4n2y:
+  /@antmjs/vantui/2.0.0_biqbaboplfbrettd7655fr4n2y:
     resolution:
       {
-        integrity: sha512-A4tCbNCFSqe5a1rs+RJEMKcAPn/8p90dvYSfmCkPMLdT8Boz/XMxznmuCQ9YBmx0qFDLVDBabP6B/PlReIWPwA==,
+        integrity: sha512-ONgSCDiHw1l30iwBYLAEv9ITbpdA1Hwvq2mF/wVTz0qFUh2fGu+PDUTm/0G8dc+RIrJ8KKZzDM26XlYa+Q5Szw==,
       }
     engines: { node: '>=12', npm: '>=6.4', yarn: '>=1.22' }
     dependencies:
-      '@babel/runtime-corejs3': 7.18.9
       '@vant/icons': 1.8.0
       classnames: 2.3.1
       dayjs: 1.11.4
@@ -2081,6 +2080,7 @@ packages:
     dependencies:
       core-js-pure: 3.24.0
       regenerator-runtime: 0.13.9
+    dev: true
 
   /@babel/runtime/7.18.9:
     resolution:
@@ -11413,6 +11413,7 @@ packages:
         integrity: sha512-uzMmW8cRh7uYw4JQtzqvGWRyC2T5+4zipQLQdi2FmiRqP83k3d6F3stv2iAlNhOs6cXN401FCD5TL0vvleuHgA==,
       }
     requiresBuild: true
+    dev: true
 
   /core-js/2.6.12:
     resolution:
