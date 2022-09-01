@@ -4,7 +4,6 @@ const pages = ['pages/index/index', 'pages/explorer/index']
 
 // 微信小程序最多支持100个子包
 const subPackages = [
-  { root: 'sub-packages/h5-components', pages: ['antd-mobile/index'] },
   {
     root: 'sub-packages/taro-components',
     pages: ['taroify/index', '@antmjs+vantui/index'],
@@ -13,6 +12,9 @@ const subPackages = [
     root: 'sub-packages/state-management',
     pages: ['redux/index', 'zustand/index', 'recoil/index', 'jotai/index'],
   },
+  { root: 'sub-packages/data-fetching', pages: ['react-query/index'] },
+  { root: 'sub-packages/h5-components', pages: ['antd-mobile/index'] },
+  { root: 'sub-packages/use-hooks', pages: ['ahooks/index'] },
   { root: 'pages/404', pages: ['index'] },
 ]
 

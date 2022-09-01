@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@antmjs/vantui': ^1.9.21
+  '@antmjs/vantui': ^2.0.0
   '@babel/core': ^7.17.12
   '@babel/runtime': ^7.17.9
   '@commitlint/cli': ^17.0.3
@@ -16,6 +16,7 @@ specifiers:
   '@storybook/addon-postcss': ^2.0.0
   '@storybook/react': ^6.5.10
   '@storybook/testing-library': ^0.0.13
+  '@tanstack/react-query': ^4.2.3
   '@taroify/core': 0.1.0-alpha.1
   '@taroify/icons': 0.1.0-alpha.1
   '@tarojs/cli': ^3.5.4
@@ -40,6 +41,7 @@ specifiers:
   '@types/webpack-env': ^1.16.4
   '@typescript-eslint/eslint-plugin': ^5.25.0
   '@typescript-eslint/parser': ^5.25.0
+  ahooks: ^3.7.0
   antd-mobile: ^5.21.0
   autoprefixer: ^10.4.8
   babel-loader: ^8.2.5
@@ -82,12 +84,14 @@ specifiers:
   zustand: ^4.1.1
 
 dependencies:
-  '@antmjs/vantui': 1.9.21_biqbaboplfbrettd7655fr4n2y
+  '@antmjs/vantui': 2.0.0_biqbaboplfbrettd7655fr4n2y
   '@reduxjs/toolkit': 1.8.3_kkwg4cbsojnjnupd3btipussee
+  '@tanstack/react-query': 4.2.3_biqbaboplfbrettd7655fr4n2y
   '@taroify/core': 0.1.0-alpha.1_7z7c46cevd7qdizsjigqg7cyhu
   '@taroify/icons': 0.1.0-alpha.1_@tarojs+components@3.5.4
   '@tarojs/components': 3.5.4_@types+react@18.0.15
   '@tarojs/taro': 3.5.4_@types+react@18.0.15
+  ahooks: 3.7.0_react@18.2.0
   antd-mobile: 5.21.0_biqbaboplfbrettd7655fr4n2y
   date-fns: 2.29.1
   lodash-es: 4.17.21
@@ -176,14 +180,13 @@ packages:
       '@jridgewell/trace-mapping': 0.3.14
     dev: true
 
-  /@antmjs/vantui/1.9.21_biqbaboplfbrettd7655fr4n2y:
+  /@antmjs/vantui/2.0.0_biqbaboplfbrettd7655fr4n2y:
     resolution:
       {
-        integrity: sha512-A4tCbNCFSqe5a1rs+RJEMKcAPn/8p90dvYSfmCkPMLdT8Boz/XMxznmuCQ9YBmx0qFDLVDBabP6B/PlReIWPwA==,
+        integrity: sha512-ONgSCDiHw1l30iwBYLAEv9ITbpdA1Hwvq2mF/wVTz0qFUh2fGu+PDUTm/0G8dc+RIrJ8KKZzDM26XlYa+Q5Szw==,
       }
     engines: { node: '>=12', npm: '>=6.4', yarn: '>=1.22' }
     dependencies:
-      '@babel/runtime-corejs3': 7.18.9
       '@vant/icons': 1.8.0
       classnames: 2.3.1
       dayjs: 1.11.4
@@ -2079,6 +2082,7 @@ packages:
     dependencies:
       core-js-pure: 3.24.0
       regenerator-runtime: 0.13.9
+    dev: true
 
   /@babel/runtime/7.18.9:
     resolution:
@@ -5374,6 +5378,35 @@ packages:
     dependencies:
       defer-to-connect: 2.0.1
     dev: true
+
+  /@tanstack/query-core/4.2.3:
+    resolution:
+      {
+        integrity: sha512-zdt5lYWs1dZaA3IxJbCgtAfHZJScRZONpiLL7YkeOkrme5MfjQqTpjq7LYbzpyuwPOh2Jx68le0PLl57JFv5hQ==,
+      }
+    dev: false
+
+  /@tanstack/react-query/4.2.3_biqbaboplfbrettd7655fr4n2y:
+    resolution:
+      {
+        integrity: sha512-JLaMOxoJTkiAu7QpevRCt2uI/0vd3E8K/rSlCuRgWlcW5DeJDFpDS5kfzmLO5MOcD97fgsJRrDbxDORxR1FdJA==,
+      }
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-native: '*'
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+      react-native:
+        optional: true
+    dependencies:
+      '@tanstack/query-core': 4.2.3
+      '@types/use-sync-external-store': 0.0.3
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      use-sync-external-store: 1.2.0_react@18.2.0
+    dev: false
 
   /@taroify/core/0.1.0-alpha.1_7z7c46cevd7qdizsjigqg7cyhu:
     resolution:
@@ -11382,6 +11415,7 @@ packages:
         integrity: sha512-uzMmW8cRh7uYw4JQtzqvGWRyC2T5+4zipQLQdi2FmiRqP83k3d6F3stv2iAlNhOs6cXN401FCD5TL0vvleuHgA==,
       }
     requiresBuild: true
+    dev: true
 
   /core-js/2.6.12:
     resolution:
