@@ -1,3 +1,15 @@
+## [0.0.3](https://github.com/QingyunYang/taro-react-boilerplate/compare/0.0.2...0.0.3) (2022-09-01)
+
+### Features
+
+- 更新 @antmjs/vantui 依赖版本至 v2.0.0 ([1c88dab](https://github.com/QingyunYang/taro-react-boilerplate/commit/1c88dab8d07b7474539b2567247993cdc5b85974))
+- 集成 @tanstack/react-query 数据请求库 ([742fe20](https://github.com/QingyunYang/taro-react-boilerplate/commit/742fe20f66affa167f2ed2fd00223b20fd7a9cc3))
+- 集成 ahook 钩子库 ([a8348f0](https://github.com/QingyunYang/taro-react-boilerplate/commit/a8348f08155185b346f068dc6e4b6f23a05fa294))
+- 集成 jotai 状态管理示例 ([2eaf3fc](https://github.com/QingyunYang/taro-react-boilerplate/commit/2eaf3fc554680fab756998ef0841af561d92d4a6))
+- 添加集成 ossaui、ahooks 计划 ([e2dc5b3](https://github.com/QingyunYang/taro-react-boilerplate/commit/e2dc5b3dfadf2bf528afef93bda8e8b60c584421))
+- 移除 @tarojs/plugin-html 插件 ([4b6ceb9](https://github.com/QingyunYang/taro-react-boilerplate/commit/4b6ceb9f34d94e15684e4dfd0eab3683e981eac4))
+- **react:** 移除严格模式，避免开启并发渲染后，useEffect 触发两次问题 ([d150e30](https://github.com/QingyunYang/taro-react-boilerplate/commit/d150e30ed0ce6f5a17339149dcf3aa10370a5e8b))
+
 ## [0.0.2](https://github.com/QingyunYang/taro-react-boilerplate/compare/0.0.1...0.0.2) (2022-08-22)
 
 ### Bug Fixes
