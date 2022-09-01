@@ -41,6 +41,7 @@ specifiers:
   '@types/webpack-env': ^1.16.4
   '@typescript-eslint/eslint-plugin': ^5.25.0
   '@typescript-eslint/parser': ^5.25.0
+  ahooks: ^3.7.0
   antd-mobile: ^5.21.0
   autoprefixer: ^10.4.8
   babel-loader: ^8.2.5
@@ -90,6 +91,7 @@ dependencies:
   '@taroify/icons': 0.1.0-alpha.1_@tarojs+components@3.5.2
   '@tarojs/components': 3.5.2_@types+react@18.0.15
   '@tarojs/taro': 3.5.2_@types+react@18.0.15
+  ahooks: 3.7.0_react@18.2.0
   antd-mobile: 5.21.0_biqbaboplfbrettd7655fr4n2y
   date-fns: 2.29.1
   lodash-es: 4.17.21

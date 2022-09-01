@@ -59,6 +59,7 @@
     "@taroify/icons": "0.1.0-alpha.1",
     "@tarojs/components": "3.5.2",
     "@tarojs/taro": "3.5.2",
+    "ahooks": "^3.7.0",
     "antd-mobile": "^5.21.0",
     "date-fns": "^2.29.1",
     "lodash-es": "^4.17.21",

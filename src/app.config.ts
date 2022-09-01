@@ -14,6 +14,7 @@ const subPackages = [
   },
   { root: 'sub-packages/data-fetching', pages: ['react-query/index'] },
   { root: 'sub-packages/h5-components', pages: ['antd-mobile/index'] },
+  { root: 'sub-packages/use-hooks', pages: ['ahooks/index'] },
   { root: 'pages/404', pages: ['index'] },
 ]
 

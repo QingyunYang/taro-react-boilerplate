@@ -23,7 +23,7 @@ const h5Components = [
   { url: '/sub-packages/h5-components/antd-mobile/index', title: 'antd-mobile' },
 ]
 
-const hooks = [{ url: '/sub-packages/hooks/ahooks/index', title: 'ahooks' }]
+const useHooks = [{ url: '/sub-packages/use-hooks/ahooks/index', title: 'ahooks' }]
 
 export const App: FC = () => (
   <View className="h-screen bg-gray-100 pr-3 pl-3 pt-2 pb-2">
@@ -39,7 +39,7 @@ export const App: FC = () => (
       title="H5 Components"
       description="在 @tarojs/plugin-html 插件的支持下，可以一定程度上复用 web 端的组件"
     />
-    <SectionItem links={hooks} title="Hooks" description="可用的 react hook 库" />
+    <SectionItem links={useHooks} title="Use Hooks" description="可用的 react hook 库" />
     <SectionItem links={[]} title="Drag And Drop" description="拖拽能力" />
     <SectionItem links={[]} title="Animation" description="动画效果" />
     <SectionItem links={[]} title="Game Engine" description="游戏引擎" />
