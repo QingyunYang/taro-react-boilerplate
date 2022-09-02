@@ -63,6 +63,7 @@ specifiers:
   lint-staged: ^12.4.2
   lodash-es: ^4.17.21
   npm-check-updates: ^16.0.5
+  ossaui: ^0.2.0
   plop: ^3.1.1
   postcss: ^8.4.14
   postcss-rem-to-responsive-pixel: ^5.1.3
@@ -96,6 +97,7 @@ dependencies:
   date-fns: 2.29.1
   jotai: 1.8.2_lxeixztqul6ae7cp3cpkyxlhzm
   lodash-es: 4.17.21
+  ossaui: 0.2.0_flbra7bvman22ebtr3q7v6djfe
   react: 18.2.0
   react-error-boundary: 3.1.4_react@18.2.0
   react-query: 3.39.2_biqbaboplfbrettd7655fr4n2y
@@ -5720,7 +5722,6 @@ packages:
       scheduler: 0.20.2
     transitivePeerDependencies:
       - react
-    dev: true
 
   /@tarojs/router/3.5.5_@types+react@18.0.15:
     resolution:
@@ -8811,8 +8812,6 @@ packages:
       babel-register: 6.26.0
       babylon: 6.18.0
       require-from-string: 2.0.2
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /babel-plugin-react-docgen/4.2.1:
@@ -21697,6 +21696,24 @@ packages:
     engines: { node: '>=0.10.0' }
     dev: true
 
+  /ossaui/0.2.0_flbra7bvman22ebtr3q7v6djfe:
+    resolution:
+      {
+        integrity: sha512-xYh3sHsvF5DdJR9CH1M1lhvEP82LQ9g8F0WxSHRRIp9FVAT+Dk8x2UfS3hok6v1Wd5oz44ojGGMIJcURM2ZpxA==,
+      }
+    peerDependencies:
+      '@tarojs/components': ^3.4.12
+      '@tarojs/react': ^3.4.12
+      react: '>=16.13.0'
+      react-dom: '>=16.13.0'
+    dependencies:
+      '@tarojs/components': 3.5.5_@types+react@18.0.15
+      '@tarojs/react': 3.5.5_react@18.2.0
+      classnames: 2.3.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
+
   /p-all/2.1.0:
     resolution:
       {
@@ -24271,7 +24288,6 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.21.0
-    dev: true
 
   /react-redux/8.0.2_bb2bxwco6ptpubzwpazr52qf6i:
     resolution:
@@ -25549,7 +25565,6 @@ packages:
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
-    dev: true
 
   /scheduler/0.21.0:
     resolution:
@@ -25558,7 +25573,6 @@ packages:
       }
     dependencies:
       loose-envify: 1.4.0
-    dev: true
 
   /scheduler/0.23.0:
     resolution:

@@ -6,7 +6,7 @@ const pages = ['pages/index/index', 'pages/explorer/index']
 const subPackages = [
   {
     root: 'sub-packages/taro-components',
-    pages: ['taroify/index', '@antmjs+vantui/index'],
+    pages: ['ossaui/index', 'taroify/index', '@antmjs+vantui/index'],
   },
   {
     root: 'sub-packages/state-management',

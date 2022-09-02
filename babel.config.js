@@ -39,6 +39,15 @@ const config = {
       },
       '@taroify/icons',
     ],
+    [
+      'import',
+      {
+        libraryName: 'ossaui',
+        customName: (name) => `ossaui/lib/components/${name.replace(/^os-/, '')}`,
+        customStyleName: (name) => `ossaui/dist/style/components/${name.replace(/^os-/, '')}.scss`,
+      },
+      'ossaui',
+    ],
   ],
 }
 

@@ -64,6 +64,7 @@
     "date-fns": "^2.29.1",
     "jotai": "^1.8.2",
     "lodash-es": "^4.17.21",
+    "ossaui": "^0.2.0",
     "react": "^18.2.0",
     "react-error-boundary": "^3.1.4",
     "react-query": "^3.39.2",

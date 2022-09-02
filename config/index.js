@@ -73,7 +73,7 @@ const config = {
         },
       },
     },
-    esnextModules: ['@taroify', 'antd-mobile', /@antmjs[\\/]vantui/],
+    esnextModules: ['ossaui', '@taroify', 'antd-mobile', /@antmjs[\\/]vantui/],
   },
 }
 
