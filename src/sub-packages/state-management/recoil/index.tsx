@@ -1,10 +1,13 @@
 import type { FC } from 'react'
+import { RecoilRoot } from 'recoil'
 import { PageLayout } from '@/layouts/PageLayout'
 import { App } from './App'
 
 const Page: FC = () => (
   <PageLayout>
-    <App />
+    <RecoilRoot>
+      <App />
+    </RecoilRoot>
   </PageLayout>
 )
 

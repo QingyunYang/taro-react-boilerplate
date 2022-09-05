@@ -78,6 +78,7 @@ specifiers:
   react-query: ^3.39.2
   react-redux: ^8.0.2
   react-refresh: ^0.14.0
+  recoil: ^0.7.5
   release-it: ^15.2.0
   sass-loader: 10.1.1
   stylelint: ^14.9.1
@@ -105,6 +106,7 @@ dependencies:
   react-error-boundary: 3.1.4_react@18.2.0
   react-query: 3.39.2_biqbaboplfbrettd7655fr4n2y
   react-redux: 8.0.2_63dfw6rfgd64rl77ptfma4cvt4
+  recoil: 0.7.5_biqbaboplfbrettd7655fr4n2y
   zustand: 4.1.1_react@18.2.0
 
 devDependencies:
@@ -16204,6 +16206,13 @@ packages:
       }
     dev: true
 
+  /hamt_plus/1.0.2:
+    resolution:
+      {
+        integrity: sha512-t2JXKaehnMb9paaYA7J0BX8QQAY8lwfQ9Gjf4pg/mk4krt+cmwmU652HOoWonf+7+EQV97ARPMhhVgU1ra2GhA==,
+      }
+    dev: false
+
   /handle-thing/2.0.1:
     resolution:
       {
@@ -24591,6 +24600,26 @@ packages:
     dependencies:
       resolve: 1.22.1
     dev: true
+
+  /recoil/0.7.5_biqbaboplfbrettd7655fr4n2y:
+    resolution:
+      {
+        integrity: sha512-GVShsj5+M/2GULWBs5WBJGcsNis/d3YvDiaKjYh3mLKXftjtmk9kfaQ8jwjoIXySCwn8/RhgJ4Sshwgzj2UpFA==,
+      }
+    peerDependencies:
+      react: '>=16.13.1'
+      react-dom: '*'
+      react-native: '*'
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+      react-native:
+        optional: true
+    dependencies:
+      hamt_plus: 1.0.2
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
 
   /redent/1.0.0:
     resolution:

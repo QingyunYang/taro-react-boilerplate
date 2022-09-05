@@ -69,6 +69,7 @@
     "react-error-boundary": "^3.1.4",
     "react-query": "^3.39.2",
     "react-redux": "^8.0.2",
+    "recoil": "^0.7.5",
     "zustand": "^4.1.1"
   },
   "devDependencies": {

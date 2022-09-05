@@ -6,6 +6,7 @@
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Zustand](https://zustand-demo.pmnd.rs/)
+- [Recoil](https://recoiljs.org/)：A state management library for React
 - [Tailwindcss](https://tailwindcss.com/)
 - [React Query](https://react-query.tanstack.com/)
 - [Date-fns](https://date-fns.org/)
