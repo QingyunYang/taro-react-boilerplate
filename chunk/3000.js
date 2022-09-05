@@ -1,0 +1,1 @@
+"use strict";(self.webpackJsonp=self.webpackJsonp||[]).push([[3e3],{"3000":function(n,e,o){o.r(e),o.d(e,{"taro_camera_core":function(){return c}});var t=o(1272),c=function(){function r(n){(0,t.r)(this,n)}return r.prototype.componentDidLoad=function(){console.error("H5 暂不支持 Camera 组件！")},r.prototype.render=function(){return(0,t.h)(t.H,null)},r}()}}]);
