@@ -58,7 +58,7 @@ const config = {
     },
   },
   h5: {
-    publicPath: '/',
+    publicPath: '/taro-react-boilerplate',
     staticDirectory: 'static',
     postcss: {
       autoprefixer: {
