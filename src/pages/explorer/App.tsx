@@ -4,8 +4,8 @@ import { SectionItem } from './components/SectionItem'
 
 const taroComponents = [
   { url: '/sub-packages/taro-components/@antmjs+vantui/index', title: '@antmjs/vantui' },
-  { url: '/sub-packages/taro-components/taroify/index', title: 'taroify' },
   { url: '/sub-packages/taro-components/ossaui/index', title: 'ossaui' },
+  { url: '/sub-packages/taro-components/taroify/index', title: '@taroify/core' },
 ]
 
 const stateManagement = [
