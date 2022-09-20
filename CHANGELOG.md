@@ -1,3 +1,15 @@
+## [0.0.4](https://github.com/QingyunYang/taro-react-boilerplate/compare/0.0.3...0.0.4) (2022-09-20)
+
+### Features
+
+- 更新依赖版本：taro v3.5.4 --\> v3.5.5 ([fae2f0c](https://github.com/QingyunYang/taro-react-boilerplate/commit/fae2f0c1961a853a39d17478e262e3723d5ec4e4))
+- 集成 recoil 状态管理库 ([b77bc4d](https://github.com/QingyunYang/taro-react-boilerplate/commit/b77bc4d3e13c5d2a11b770da6ab67a1a6d5f314c))
+- 集成 taro 组件库：ossaui ([9d38ad0](https://github.com/QingyunYang/taro-react-boilerplate/commit/9d38ad0e20e8446156e02be9679d3844659371f8))
+- 完善 README.md ([562d498](https://github.com/QingyunYang/taro-react-boilerplate/commit/562d49843ac1ee708c1da902a1fb5c2c38304909))
+- 优先推荐 @antmjs/vantui 和 ossaui ([3a2f50f](https://github.com/QingyunYang/taro-react-boilerplate/commit/3a2f50f504dc17efe9ae17b3f46c36749cc71e98))
+- **h5:** 支持部署到 github pages 服务 ([0786b89](https://github.com/QingyunYang/taro-react-boilerplate/commit/0786b89fe68c8db27f37d7a6bc18e706b09eeefe))
+- **storybook:** 完善与 taro 的集成 ([d1dcfc9](https://github.com/QingyunYang/taro-react-boilerplate/commit/d1dcfc933b5316d2ac5be2c2e570089ea12bf1a4))
+
 ## [0.0.3](https://github.com/QingyunYang/taro-react-boilerplate/compare/0.0.2...0.0.3) (2022-09-01)
 
 ### Features
