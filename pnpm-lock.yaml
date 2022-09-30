@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@antmjs/vantui': ^2.2.2
+  '@antmjs/vantui': ^2.2.3
   '@babel/core': ^7.19.3
   '@babel/runtime': ^7.19.0
   '@commitlint/cli': ^17.1.2
@@ -64,7 +64,7 @@ specifiers:
   jotai: ^1.8.4
   lint-staged: ^13.0.3
   lodash-es: ^4.17.21
-  npm-check-updates: ^16.3.3
+  npm-check-updates: ^16.3.4
   ossaui: ^0.3.2
   plop: ^3.1.1
   postcss: ^8.4.16
@@ -89,7 +89,7 @@ specifiers:
   zustand: ^4.1.1
 
 dependencies:
-  '@antmjs/vantui': 2.2.2_biqbaboplfbrettd7655fr4n2y
+  '@antmjs/vantui': 2.2.3_biqbaboplfbrettd7655fr4n2y
   '@reduxjs/toolkit': 1.8.5_kuo2ie247izvzll3jejufdtq3q
   '@tanstack/react-query': 4.7.2_biqbaboplfbrettd7655fr4n2y
   '@taroify/core': 0.1.0-alpha.1_ce4qnasfl3g3couxng5bl6hpdu
@@ -161,7 +161,7 @@ devDependencies:
   gh-pages: 4.0.0
   husky: 8.0.1
   lint-staged: 13.0.3
-  npm-check-updates: 16.3.3
+  npm-check-updates: 16.3.4
   plop: 3.1.1
   postcss: 8.4.16
   postcss-rem-to-responsive-pixel: 5.1.3
@@ -189,10 +189,10 @@ packages:
       '@jridgewell/gen-mapping': 0.1.1
       '@jridgewell/trace-mapping': 0.3.14
 
-  /@antmjs/vantui/2.2.2_biqbaboplfbrettd7655fr4n2y:
+  /@antmjs/vantui/2.2.3_biqbaboplfbrettd7655fr4n2y:
     resolution:
       {
-        integrity: sha512-e+e9dtCIsVyjjfPRBS8EP/8HEQU0i2pUzWJXw9+a0BeI6RfuBqP601xBcMk3zJbsphAR7Q3vdzwkSzpMkNFEZw==,
+        integrity: sha512-6Q57lcmT7SbRXwBgHNwkDXZ4WaE75G9NNRrTanqV9mCX+8ZPmh6muQFtabqHPGQkhHVjgZ7n3QL2p7rdP8uePg==,
       }
     engines: { node: '>=12', npm: '>=6.4', yarn: '>=1.22' }
     dependencies:
@@ -21095,10 +21095,10 @@ packages:
       npm-normalize-package-bin: 1.0.1
     dev: true
 
-  /npm-check-updates/16.3.3:
+  /npm-check-updates/16.3.4:
     resolution:
       {
-        integrity: sha512-8qdciOLfDUDX8HbK0vnF2sDaOdoUAmpyYGWfWxGDmpMTiMY30lnz6Qvz0TDPd4qhjFS9S8Ca4VJ9rS+hysY9Og==,
+        integrity: sha512-PDkd+KRhgzsB01c9dCo8O/Aad98ODb7aRxPamg+QOUXEdi/CcbItynxdCvHx9r1AXoMm0w1zixHeUZf8ktBwqQ==,
       }
     engines: { node: '>=14.14' }
     hasBin: true
